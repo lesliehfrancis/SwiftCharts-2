@@ -1,4 +1,9 @@
 // swift-tools-version:5.0
+
+//
+// The `swift-tools-version` declares the minimum version of Swift required to
+// build this package. Do not remove it.
+
 import PackageDescription
 
 let package = Package(
@@ -12,7 +17,7 @@ let package = Package(
      targets: [
         .target(
                name: "SwiftCharts",
-               path: "SwiftCharts"
+               path: "SwiftCharts/SwiftCharts"
         )
      ],
      swiftLanguageVersions: [.v5]
